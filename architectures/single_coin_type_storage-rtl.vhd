@@ -20,6 +20,7 @@ BEGIN
         ovf_inc_dec_unit<='0';
         s_inc_dec_unit <= s_counter_reg - 1;
       END IF;
+    ELSE ovf_inc_dec_unit<='0';
     END IF;
 END PROCESS;
 e_counter_reg<= to_unsigned(INIT_COUNT,5) WHEN reset='1' ELSE s_inc_dec_unit;
