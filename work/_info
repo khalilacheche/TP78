@@ -1,0 +1,246 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+Ecoin_storage
+Z0 w1588004311
+Z1 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z2 DPx4 work 15 fixed_point_pkg 0 22 ORhM90;QO^BY=J[oXKi3=1
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dY:/Desktop/TP78/templates
+8Y:/Desktop/TP78/templates/entities/coin_storage-entity.vhd
+FY:/Desktop/TP78/templates/entities/coin_storage-entity.vhd
+l0
+L7
+VRQBJD:lLY:b6ZcIEGgTG<3
+!s100 <]4>?A:0Z;bXQnoPSFgcc1
+Z7 OV;C;10.5b;63
+32
+!s110 1589110517
+!i10b 1
+!s108 1589110509.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/entities/coin_storage-entity.vhd|
+!s107 Y:/Desktop/TP78/templates/entities/coin_storage-entity.vhd|
+!i113 1
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1 CvgOpt 0
+Artl
+w1589111484
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 coin_storage 0 22 RQBJD:lLY:b6ZcIEGgTG<3
+8Y:/Desktop/TP78/templates/architectures/coin_storage-rtl.vhd
+FY:/Desktop/TP78/templates/architectures/coin_storage-rtl.vhd
+l18
+L1
+V1mSk22zNmDj9O0R@OJDQo3
+!s100 E<AG^c<``I^WhmBKeEc201
+R7
+32
+!s110 1589111511
+!i10b 1
+!s108 1589111503.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/architectures/coin_storage-rtl.vhd|
+!s107 Y:/Desktop/TP78/templates/architectures/coin_storage-rtl.vhd|
+!i113 1
+R8
+R9
+Ecs_test
+w1589112368
+R1
+R2
+R3
+R4
+R5
+R6
+8Y:/Desktop/TP78/templates/entities/coin_storage_test_entity.vhd
+FY:/Desktop/TP78/templates/entities/coin_storage_test_entity.vhd
+l0
+L5
+V^1=bBe_dQz<?1bj9FPI1j1
+!s100 9XGVHE8?nS<e?eN:DD@Nz2
+R7
+32
+!s110 1589112431
+!i10b 1
+!s108 1589112423.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/entities/coin_storage_test_entity.vhd|
+!s107 Y:/Desktop/TP78/templates/entities/coin_storage_test_entity.vhd|
+!i113 1
+R8
+R9
+Artl
+w1589113187
+R1
+R2
+R3
+R4
+R5
+Z10 DEx4 work 7 cs_test 0 22 ^1=bBe_dQz<?1bj9FPI1j1
+Z11 8Y:/Desktop/TP78/templates/architectures/cs_test_arch.vhd
+Z12 FY:/Desktop/TP78/templates/architectures/cs_test_arch.vhd
+l15
+L1
+V93C9k7B2Th6mnDPM?z8GF0
+!s100 b2T]TXz1=Hij=X48N8NVK3
+R7
+32
+!s110 1589113213
+!i10b 1
+!s108 1589113205.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/architectures/cs_test_arch.vhd|
+!s107 Y:/Desktop/TP78/templates/architectures/cs_test_arch.vhd|
+!i113 1
+R8
+R9
+Pfixed_point_pkg
+R1
+R3
+R4
+R5
+Z14 w1588004382
+R6
+Z15 8Y:/Desktop/TP78/templates/packages/fixed_point_pkg.vhd
+Z16 FY:/Desktop/TP78/templates/packages/fixed_point_pkg.vhd
+l0
+L6
+VORhM90;QO^BY=J[oXKi3=1
+!s100 WgIOF>lj@A[Pdm<mYVW5b1
+R7
+32
+b1
+!s110 1589035231
+!i10b 1
+Z17 !s108 1589035226.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/packages/fixed_point_pkg.vhd|
+Z19 !s107 Y:/Desktop/TP78/templates/packages/fixed_point_pkg.vhd|
+!i113 1
+R8
+R9
+Bbody
+R2
+R1
+R3
+R4
+R5
+l0
+L40
+V@Q<[i^YaP>COAH<R;1cjV1
+!s100 2EfOSKOm^6Dm=8Z[d9>YA0
+R7
+32
+!s110 1589035233
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R8
+R9
+Emain
+w1589038169
+R1
+R2
+R3
+R4
+R5
+R6
+8Y:/Desktop/TP78/templates/entities/test_entity.vhd
+FY:/Desktop/TP78/templates/entities/test_entity.vhd
+l0
+L5
+Vb;zbjmT;iD>HLULQZ;3SB1
+!s100 Z94nd;7W3gKO0M7AbkZ4T3
+R7
+32
+!s110 1589110300
+!i10b 1
+!s108 1589110293.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/entities/test_entity.vhd|
+!s107 Y:/Desktop/TP78/templates/entities/test_entity.vhd|
+!i113 1
+R8
+R9
+Artl
+w1589038185
+R1
+R2
+R3
+R4
+R5
+DEx4 work 4 main 0 22 b;zbjmT;iD>HLULQZ;3SB1
+8Y:/Desktop/TP78/templates/architectures/test_architecture.vhd
+FY:/Desktop/TP78/templates/architectures/test_architecture.vhd
+l15
+L1
+V5UK<:m5OdMg6n071m]kgA0
+!s100 ;TDTDWf8omzO;fcS30_R01
+R7
+32
+!s110 1589110311
+!i10b 1
+!s108 1589110305.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/architectures/test_architecture.vhd|
+!s107 Y:/Desktop/TP78/templates/architectures/test_architecture.vhd|
+!i113 1
+R8
+R9
+Esingle_coin_type_storage
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8Y:/Desktop/TP78/templates/entities/single_coin_type_storage-entity.vhd
+FY:/Desktop/TP78/templates/entities/single_coin_type_storage-entity.vhd
+l0
+L7
+VjR@W6RV4A^gXXZW]WElD?3
+!s100 @<`^?bZUBLLT0g`=3TTbh0
+R7
+32
+!s110 1589035261
+!i10b 1
+!s108 1589035257.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/entities/single_coin_type_storage-entity.vhd|
+!s107 Y:/Desktop/TP78/templates/entities/single_coin_type_storage-entity.vhd|
+!i113 1
+R8
+R9
+Artl
+w1589038013
+R1
+R2
+R3
+R4
+R5
+DEx4 work 24 single_coin_type_storage 0 22 jR@W6RV4A^gXXZW]WElD?3
+8Y:/Desktop/TP78/templates/architectures/single_coin_type_storage-rtl.vhd
+FY:/Desktop/TP78/templates/architectures/single_coin_type_storage-rtl.vhd
+l5
+L1
+V3o5F^o:CLPAN1WjhZ8;n=1
+!s100 Rgk0hFWFBj7[WRQU@F@>X2
+R7
+32
+!s110 1589038034
+!i10b 1
+!s108 1589038029.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/architectures/single_coin_type_storage-rtl.vhd|
+!s107 Y:/Desktop/TP78/templates/architectures/single_coin_type_storage-rtl.vhd|
+!i113 1
+R8
+R9
