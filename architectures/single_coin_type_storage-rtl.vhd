@@ -1,7 +1,7 @@
 ARCHITECTURE rtl OF single_coin_type_storage IS
   SIGNAL s_counter_reg,e_counter_reg,s_inc_dec_unit: unsigned (4 DOWNTO 0);
   SIGNAL s_sum_reg,e_sum_reg,s_add_sub_unit: unsigned (15 DOWNTO 0);
-  SIGNAL ovf_inc_dec_unit,enable_sum_reg :std_logic:='0';
+  SIGNAL ovf_inc_dec_unit,enable_sum_reg :std_logic;
 BEGIN
 
 inc_dec_unit : PROCESS(add_coin , rem_coin, s_counter_reg) IS
