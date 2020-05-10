@@ -24,9 +24,9 @@ VRQBJD:lLY:b6ZcIEGgTG<3
 !s100 <]4>?A:0Z;bXQnoPSFgcc1
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1589124804
+Z8 !s110 1589130880
 !i10b 1
-Z9 !s108 1589124804.000000
+Z9 !s108 1589130880.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd|
 !s107 C:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd|
 !i113 1
@@ -124,9 +124,9 @@ R7
 b1
 R8
 !i10b 1
-Z15 !s108 1589124803.000000
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd|
-Z17 !s107 C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd|
+R9
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd|
+Z16 !s107 C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd|
 !i113 1
 R10
 R11
@@ -144,9 +144,9 @@ R7
 32
 R8
 !i10b 1
+R9
 R15
 R16
-R17
 !i113 1
 R10
 R11
@@ -222,25 +222,25 @@ R9
 R10
 R11
 Artl
-w1589126616
+w1589131098
 R1
 R2
 R3
 R4
 R5
-Z18 DEx4 work 24 single_coin_type_storage 0 22 jR@W6RV4A^gXXZW]WElD?3
-Z19 8C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd
-Z20 FC:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd
+Z17 DEx4 work 24 single_coin_type_storage 0 22 jR@W6RV4A^gXXZW]WElD?3
+Z18 8C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd
+Z19 FC:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd
 l5
 L1
-VTVD_hGFaVlhooV^8CDYVz1
-!s100 DE<XgIXmBzm3bGI9_Ig`;2
+V_4BO8`6BnD00nUVfKOiNa2
+!s100 5XUl>i4lVI=??MGAg=0Yb0
 R7
 32
-!s110 1589126625
+!s110 1589131130
 !i10b 1
-!s108 1589126625.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd|
+!s108 1589131130.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd|
 !s107 C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd|
 !i113 1
 R10
