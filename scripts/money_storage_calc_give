@@ -1,0 +1,21 @@
+vsim -t ps money_storage
+add wave *
+#clk reset give_change give_change_completed idle busy completed cptr cmd_served cmd_complete main_storage_rem_coin reg_2f reg_1f reg_05f reg_02f give_change_coin_type
+force clk 1 0 , 0 1 -repeat 2
+force reset 1 0, 0 2
+
+force show_change 0 0 , 1 42, 0 56
+
+force insert_coin 0 0 , 1 4 , 0 8
+force in_coin_type 00000 0 , 10000 4 , 01000 6, 00000 8
+
+force cmd_served 0 0, 1 10 , 0 46 , 1 56 , 0 92
+
+force give_change 0 0, 1 56 , 0 92
+
+force calc_change 0 0, 1 10 , 0 42
+force price 16#0000
+
+force release_coins 0
+force merge_coins 0
+run 100

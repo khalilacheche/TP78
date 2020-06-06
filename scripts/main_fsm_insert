@@ -1,0 +1,17 @@
+vsim -t ps main_fsm
+add wave *
+force clk 1 0, 0 10 -repeat 20
+force reset 1 0, 0 25
+force in_coin_type 10000 40, 00000 60, 10000 320, 00000 340
+force accept 1 80, 0 100, 1 360, 0 380
+force drink_type 00000 0, 10000 120, 00000 140, 10000 360
+force available 0 0, 1 100, 0 120
+force cancel 0 0
+force money_cmd_complete 0 0, 1 200, 0 220, 1 280, 0 300
+force base_price 0000000000000000 0, 0000000100000000 140
+force yes 0 0, 1 160, 0 180, 1 400, 0 420
+force no 0 0
+force negative 0 0
+force zero 0 0, 1 200
+force pour_cmd_complete 0 0, 1 240, 0 260
+run 10000

@@ -1,0 +1,13 @@
+vsim -t ps money_storage
+add wave -hex *
+force clk 0 0 , 1 1 -repeat 2
+force reset 1 0, 0 2
+force insert_coin 0 0, 1 2 ,0 18
+force cmd_served 0 0, 1 20, 0 150 , 1 165, 0 300, 1 305
+force calc_change 0 0 ,1 20 ,0 150
+force price 0000010100000000 1
+force in_coin_type 00001 0
+force give_change 0 0, 1 165 ,0 300
+force merge_coins 0 0 ,1 310
+force show_change 0 0, 1 70
+run 700

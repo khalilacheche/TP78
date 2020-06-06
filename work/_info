@@ -8,7 +8,7 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/18.1
-Ecoin_storage
+Ebcd_to_7seg
 Z0 w1589123434
 Z1 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
 Z2 DPx4 work 15 fixed_point_pkg 0 22 ORhM90;QO^BY=J[oXKi3=1
@@ -16,93 +16,423 @@ Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z6 dC:/Users/HP/Documents/GitHub/TP78
-8C:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd
-FC:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd
+8C:/Users/HP/Documents/GitHub/TP78/entities/bcd_to_7seg-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/bcd_to_7seg-entity.vhd
 l0
 L7
-VRQBJD:lLY:b6ZcIEGgTG<3
-!s100 <]4>?A:0Z;bXQnoPSFgcc1
+Vb2;=e=o3@U5RBneF?:@h=3
+!s100 _XHI=K:ihVcL^Lc5:ch8P1
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1589130880
+Z8 !s110 1590489845
 !i10b 1
-Z9 !s108 1589130880.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd|
-!s107 C:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd|
+Z9 !s108 1590489845.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/bcd_to_7seg-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/bcd_to_7seg-entity.vhd|
 !i113 1
 Z10 o-work work -2002 -explicit
 Z11 tExplicit 1 CvgOpt 0
 Artl
-w1589111484
+w1589468348
 R1
 R2
 R3
 R4
 R5
-DEx4 work 12 coin_storage 0 22 RQBJD:lLY:b6ZcIEGgTG<3
-8Y:/Desktop/TP78/templates/architectures/coin_storage-rtl.vhd
-FY:/Desktop/TP78/templates/architectures/coin_storage-rtl.vhd
-l18
+DEx4 work 11 bcd_to_7seg 0 22 b2;=e=o3@U5RBneF?:@h=3
+8C:/Users/HP/Documents/GitHub/TP78/architectures/bcd_to_7seg-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/bcd_to_7seg-rtl.vhd
+l3
 L1
-V1mSk22zNmDj9O0R@OJDQo3
-!s100 E<AG^c<``I^WhmBKeEc201
+VW_;l^PJTz]?X^Z1Gfg5QZ3
+!s100 b=zUCAYS[2cJ>BLVzoSV<3
 R7
 32
-!s110 1589111511
+R8
 !i10b 1
-!s108 1589111503.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/architectures/coin_storage-rtl.vhd|
-!s107 Y:/Desktop/TP78/templates/architectures/coin_storage-rtl.vhd|
+R9
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/bcd_to_7seg-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/bcd_to_7seg-rtl.vhd|
 !i113 1
 R10
 R11
-Z12 dY:/Desktop/TP78/templates
-Ecs_test
-w1589112368
-R1
-R2
-R3
-R4
-R5
-R12
-8Y:/Desktop/TP78/templates/entities/coin_storage_test_entity.vhd
-FY:/Desktop/TP78/templates/entities/coin_storage_test_entity.vhd
-l0
-L5
-V^1=bBe_dQz<?1bj9FPI1j1
-!s100 9XGVHE8?nS<e?eN:DD@Nz2
-R7
-32
-!s110 1589112431
-!i10b 1
-!s108 1589112423.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|Y:/Desktop/TP78/templates/entities/coin_storage_test_entity.vhd|
-!s107 Y:/Desktop/TP78/templates/entities/coin_storage_test_entity.vhd|
-!i113 1
-R10
-R11
-Artl
+Ebin_to_bcd
 R0
 R1
 R2
 R3
 R4
 R5
-DEx4 work 7 cs_test 0 22 ^1=bBe_dQz<?1bj9FPI1j1
 R6
-8C:/Users/HP/Documents/GitHub/TP78/architectures/cs_test_arch.vhd
-FC:/Users/HP/Documents/GitHub/TP78/architectures/cs_test_arch.vhd
-l15
-L1
-V93C9k7B2Th6mnDPM?z8GF0
-!s100 b2T]TXz1=Hij=X48N8NVK3
+8C:/Users/HP/Documents/GitHub/TP78/entities/bin_to_bcd-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/bin_to_bcd-entity.vhd
+l0
+L7
+VTE[[eY^M3MB@BMQLo>o0z0
+!s100 =0;KKP5iC3A?dHZ4bC:543
 R7
 32
 R8
 !i10b 1
 R9
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/cs_test_arch.vhd|
-!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/cs_test_arch.vhd|
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/bin_to_bcd-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/bin_to_bcd-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1589464262
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 bin_to_bcd 0 22 TE[[eY^M3MB@BMQLo>o0z0
+8C:/Users/HP/Documents/GitHub/TP78/architectures/bin_to_bcd-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/bin_to_bcd-rtl.vhd
+l3
+L1
+VInW5@D]SZaVkEFO6OPm5T1
+!s100 OG4E30DW`h[L_X;?g_4HN3
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/bin_to_bcd-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/bin_to_bcd-rtl.vhd|
+!i113 1
+R10
+R11
+Echange_calculator
+w1590079497
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/storage_control_components/change_calculator-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/storage_control_components/change_calculator-entity.vhd
+l0
+L7
+VC8b[`Q_<N^?DV0Qi;NYRn1
+!s100 @=>_LDUcR2WHk_H9fI46j0
+R7
+32
+!s110 1590079505
+!i10b 1
+!s108 1590079505.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/storage_control_components/change_calculator-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/storage_control_components/change_calculator-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590080379
+R1
+R2
+R3
+R4
+R5
+DEx4 work 17 change_calculator 0 22 C8b[`Q_<N^?DV0Qi;NYRn1
+8C:/Users/HP/Documents/GitHub/TP78/storage_control_components/change_calculator-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/storage_control_components/change_calculator-rtl.vhd
+l6
+L1
+VR3CTX@h^eKo:861jQT1<Z3
+!s100 ^ZbdZS9?hCKOd<8bR24NV0
+R7
+32
+!s110 1590081468
+!i10b 1
+!s108 1590081468.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/storage_control_components/change_calculator-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/storage_control_components/change_calculator-rtl.vhd|
+!i113 1
+R10
+R11
+Ecoin_storage
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd
+l0
+L7
+VRQBJD:lLY:b6ZcIEGgTG<3
+!s100 <]4>?A:0Z;bXQnoPSFgcc1
+R7
+32
+Z12 !s110 1590489844
+!i10b 1
+Z13 !s108 1590489844.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/coin_storage-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1589983626
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 coin_storage 0 22 RQBJD:lLY:b6ZcIEGgTG<3
+8C:/Users/HP/Documents/GitHub/TP78/architectures/coin_storage-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/coin_storage-rtl.vhd
+l18
+L1
+V1mSk22zNmDj9O0R@OJDQo3
+!s100 E<AG^c<``I^WhmBKeEc201
+R7
+32
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/coin_storage-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/coin_storage-rtl.vhd|
+!i113 1
+R10
+R11
+Ecs_test
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/Test Bench/entities/coin_storage_test_entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/Test Bench/entities/coin_storage_test_entity.vhd
+l0
+L5
+V^1=bBe_dQz<?1bj9FPI1j1
+!s100 9XGVHE8?nS<e?eN:DD@Nz2
+R7
+32
+R8
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/Test Bench/entities/coin_storage_test_entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/Test Bench/entities/coin_storage_test_entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590078554
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 cs_test 0 22 ^1=bBe_dQz<?1bj9FPI1j1
+8C:/Users/HP/Documents/GitHub/TP78/Test Bench/architectures/cs_test_arch.vhd
+FC:/Users/HP/Documents/GitHub/TP78/Test Bench/architectures/cs_test_arch.vhd
+l15
+L1
+VEilVe[L3a<<LB45dlSl6=1
+!s100 K7JHGo`<XZTXE9n=[FV[l1
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/Test Bench/architectures/cs_test_arch.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/Test Bench/architectures/cs_test_arch.vhd|
+!i113 1
+R10
+R11
+Edebouncer
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/debouncer-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/debouncer-entity.vhd
+l0
+L7
+VRNgjcWFg`6oai[2b>ZNPY1
+!s100 2^6hGc4nM9AdF:igI]F2@1
+R7
+32
+Z14 !s110 1590489846
+!i10b 1
+Z15 !s108 1590489846.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/debouncer-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/debouncer-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590098031
+R1
+R2
+R3
+R4
+R5
+DEx4 work 9 debouncer 0 22 RNgjcWFg`6oai[2b>ZNPY1
+8C:/Users/HP/Documents/GitHub/TP78/architectures/debouncer-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/debouncer-rtl.vhd
+l3
+L1
+V02W=QDWz_OkeF:]];cg`:3
+!s100 PIYKhYER>T;lkRTFWIonG3
+R7
+32
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/debouncer-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/debouncer-rtl.vhd|
+!i113 1
+R10
+R11
+Edisp_driver
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/disp_driver-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/disp_driver-entity.vhd
+l0
+L7
+VUa[A_Y;2H:JS<2ojfjBeE2
+!s100 >PRm9Pi2niAKkz6Q4L=;>3
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/disp_driver-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/disp_driver-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590933348
+R1
+R2
+R3
+R4
+R5
+Z16 DEx4 work 11 disp_driver 0 22 Ua[A_Y;2H:JS<2ojfjBeE2
+8C:/Users/HP/Desktop/disp_driver/disp_driver-rtl.vhd
+FC:/Users/HP/Desktop/disp_driver/disp_driver-rtl.vhd
+l21
+L1
+V7e6g_HKX<6U9?4HBnV@RR3
+!s100 m[;^Z?lTB4KBVCLQQkPeE1
+R7
+32
+!s110 1590933354
+!i10b 1
+!s108 1590933353.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Desktop/disp_driver/disp_driver-rtl.vhd|
+!s107 C:/Users/HP/Desktop/disp_driver/disp_driver-rtl.vhd|
+!i113 1
+R10
+R11
+Edrink_preparation
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/drink_preparation-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/drink_preparation-entity.vhd
+l0
+L7
+VUiQ7Q@M2UoKOeAnfB[m4@0
+!s100 Ozc9l2_4L:Mf15i==NoRf0
+R7
+32
+Z17 !s110 1590489847
+!i10b 1
+Z18 !s108 1590489847.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/drink_preparation-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/drink_preparation-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590924789
+R1
+R2
+R3
+R4
+R5
+DEx4 work 17 drink_preparation 0 22 UiQ7Q@M2UoKOeAnfB[m4@0
+8C:/Users/HP/Documents/GitHub/TP78/fdr.vhd
+FC:/Users/HP/Documents/GitHub/TP78/fdr.vhd
+l21
+L1
+VJfH6Y:3GWFj8fFZkGzLz@2
+!s100 DoYcH6AY4Fg]a>VG2jo]G2
+R7
+32
+!s110 1590924970
+!i10b 1
+!s108 1590924970.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/fdr.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/fdr.vhd|
+!i113 1
+R10
+R11
+Eevent_launcher
+w1589982965
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/storage_control_components/event_launcher-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/storage_control_components/event_launcher-entity.vhd
+l0
+L6
+VB56VT^EHa72I24VCR:W:S2
+!s100 zT9AimT8f:BX1kndAIT9<3
+R7
+32
+!s110 1589983581
+!i10b 1
+!s108 1589983581.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/storage_control_components/event_launcher-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/storage_control_components/event_launcher-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1589983367
+R3
+R4
+R5
+DEx4 work 14 event_launcher 0 22 B56VT^EHa72I24VCR:W:S2
+8C:/Users/HP/Documents/GitHub/TP78/storage_control_components/event_launcher-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/storage_control_components/event_launcher-rtl.vhd
+l3
+L1
+VIEfCO9ai]Snic^fY<^F8^0
+!s100 aVD91bd68S;`Ba:8KMGLd1
+R7
+32
+!s110 1589983604
+!i10b 1
+!s108 1589983603.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/storage_control_components/event_launcher-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/storage_control_components/event_launcher-rtl.vhd|
 !i113 1
 R10
 R11
@@ -111,10 +441,10 @@ R1
 R3
 R4
 R5
-R0
+Z19 w1590178247
 R6
-Z13 8C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd
-Z14 FC:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd
+Z20 8C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd
+Z21 FC:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd
 l0
 L6
 VORhM90;QO^BY=J[oXKi3=1
@@ -122,11 +452,11 @@ VORhM90;QO^BY=J[oXKi3=1
 R7
 32
 b1
-R8
+R12
 !i10b 1
-R9
-Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd|
-Z16 !s107 C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd|
+Z22 !s108 1590489843.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd|
+Z24 !s107 C:/Users/HP/Documents/GitHub/TP78/packages/fixed_point_pkg.vhd|
 !i113 1
 R10
 R11
@@ -142,11 +472,107 @@ V@Q<[i^YaP>COAH<R;1cjV1
 !s100 2EfOSKOm^6Dm=8Z[d9>YA0
 R7
 32
-R8
+R12
 !i10b 1
-R9
+R22
+R23
+R24
+!i113 1
+R10
+R11
+Eled_driver
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/led_driver-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/led_driver-entity.vhd
+l0
+L7
+V4>]A:h2NzTIPRAWgOUFJE3
+!s100 =QS]IgdROLPBj^M98RCRV3
+R7
+32
+R14
+!i10b 1
 R15
-R16
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/led_driver-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/led_driver-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590884960
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 led_driver 0 22 4>]A:h2NzTIPRAWgOUFJE3
+8C:/Users/HP/Documents/GitHub/TP78/architectures/led_driver-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/led_driver-rtl.vhd
+l64
+L1
+VO;G>ab2i>jBLdjn87A<Fj1
+!s100 b9@z3COL>Odo:2cB9`TcU3
+R7
+32
+Z25 !s110 1590886713
+!i10b 1
+Z26 !s108 1590886713.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/led_driver-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/led_driver-rtl.vhd|
+!i113 1
+R10
+R11
+Emachine
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/machine-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/machine-entity.vhd
+l0
+L7
+V13=MPhP[_QKcYmHPTiAcX0
+!s100 k9Qe]:>4WXGQ1S?`;bjWk1
+R7
+32
+!s110 1590489848
+!i10b 1
+!s108 1590489848.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/machine-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/machine-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590885387
+R1
+R2
+R3
+R4
+R5
+DEx4 work 7 machine 0 22 13=MPhP[_QKcYmHPTiAcX0
+8C:/Users/HP/Documents/GitHub/TP78/architectures/machine-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/machine-rtl.vhd
+l87
+L1
+V__Q5UmRCo5LS0dRdNd1Vk3
+!s100 FD[6Ho_[P4^NBo4@2DCo@3
+R7
+32
+R25
+!i10b 1
+R26
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/machine-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/machine-rtl.vhd|
 !i113 1
 R10
 R11
@@ -158,42 +584,139 @@ R3
 R4
 R5
 R6
-8C:/Users/HP/Documents/GitHub/TP78/entities/test_entity.vhd
-FC:/Users/HP/Documents/GitHub/TP78/entities/test_entity.vhd
+8C:/Users/HP/Documents/GitHub/TP78/Test Bench/entities/test_entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/Test Bench/entities/test_entity.vhd
 l0
 L5
 Vb;zbjmT;iD>HLULQZ;3SB1
 !s100 Z94nd;7W3gKO0M7AbkZ4T3
 R7
 32
-R8
+R12
 !i10b 1
-R9
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/test_entity.vhd|
-!s107 C:/Users/HP/Documents/GitHub/TP78/entities/test_entity.vhd|
+R13
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/Test Bench/entities/test_entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/Test Bench/entities/test_entity.vhd|
 !i113 1
 R10
 R11
 Artl
+w1589142592
 R1
 R2
 R3
 R4
 R5
 DEx4 work 4 main 0 22 b;zbjmT;iD>HLULQZ;3SB1
-8C:/Users/HP/Documents/GitHub/TP78/architectures/test_architecture.vhd
-FC:/Users/HP/Documents/GitHub/TP78/architectures/test_architecture.vhd
+8C:/Users/HP/Documents/GitHub/TP78/Test Bench/architectures/test_architecture.vhd
+FC:/Users/HP/Documents/GitHub/TP78/Test Bench/architectures/test_architecture.vhd
 l15
 L1
-V5UK<:m5OdMg6n071m]kgA0
-!s100 ;TDTDWf8omzO;fcS30_R01
+VGk25?iNWWoM5]@4VoiY=P3
+!s100 @1imJM`zfj=kQIccB0TCe1
 R7
 32
 R8
 !i10b 1
 R9
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/test_architecture.vhd|
-!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/test_architecture.vhd|
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/Test Bench/architectures/test_architecture.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/Test Bench/architectures/test_architecture.vhd|
+!i113 1
+R10
+R11
+Emain_fsm
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/main_fsm-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/main_fsm-entity.vhd
+l0
+L6
+V^NDQEOS`N^?[[9ZeV=TeI2
+!s100 W7HBXVF3zM68c]:;C@LBN0
+R7
+32
+R17
+!i10b 1
+R18
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/main_fsm-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/main_fsm-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590878886
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 main_fsm 0 22 ^NDQEOS`N^?[[9ZeV=TeI2
+8C:\Users\HP\Documents\GitHub\TP78\architectures\main_fsm-rtl.vhd
+FC:\Users\HP\Documents\GitHub\TP78\architectures\main_fsm-rtl.vhd
+l19
+L1
+VNHFjLTQQEMM;oN^50TaEc3
+!s100 _RjD]kS@I9mL4WYgBYeAN2
+R7
+32
+!s110 1590878985
+!i10b 1
+!s108 1590878984.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\HP\Documents\GitHub\TP78\architectures\main_fsm-rtl.vhd|
+!s107 C:\Users\HP\Documents\GitHub\TP78\architectures\main_fsm-rtl.vhd|
+!i113 1
+R10
+R11
+Emoney_storage
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/money_storage-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/money_storage-entity.vhd
+l0
+L7
+VQ[R0nz?X;H1e?lKY7?=F13
+!s100 P;Q=mRRc1c4VN;bVGeJGE1
+R7
+32
+R17
+!i10b 1
+R18
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/money_storage-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/money_storage-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590182194
+R1
+R2
+R3
+R4
+R5
+DEx4 work 13 money_storage 0 22 Q[R0nz?X;H1e?lKY7?=F13
+8C:/Users/HP/Documents/GitHub/TP78/architectures/money_storage-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/money_storage-rtl.vhd
+l54
+L1
+Vf@GaWba4H>`7kQI`FHVAM1
+!s100 i?NB=T?c7gEQ;CO@Dck9C3
+R7
+32
+R17
+!i10b 1
+R18
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/money_storage-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/money_storage-rtl.vhd|
 !i113 1
 R10
 R11
@@ -213,35 +736,318 @@ VjR@W6RV4A^gXXZW]WElD?3
 !s100 @<`^?bZUBLLT0g`=3TTbh0
 R7
 32
-R8
+R12
 !i10b 1
-R9
+R13
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/single_coin_type_storage-entity.vhd|
 !s107 C:/Users/HP/Documents/GitHub/TP78/entities/single_coin_type_storage-entity.vhd|
 !i113 1
 R10
 R11
 Artl
-w1589131098
+w1590326391
 R1
 R2
 R3
 R4
 R5
-Z17 DEx4 work 24 single_coin_type_storage 0 22 jR@W6RV4A^gXXZW]WElD?3
-Z18 8C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd
-Z19 FC:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd
+DEx4 work 24 single_coin_type_storage 0 22 jR@W6RV4A^gXXZW]WElD?3
+Z27 8C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd
+Z28 FC:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd
 l5
 L1
-V_4BO8`6BnD00nUVfKOiNa2
-!s100 5XUl>i4lVI=??MGAg=0Yb0
+V^NhBLAJnT`jMkbEb79a6I2
+!s100 1JiEKm9>izE1QTOFYbj4S3
 R7
 32
-!s110 1589131130
+R12
 !i10b 1
-!s108 1589131130.000000
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd|
-!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd|
+R13
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd|
+Z30 !s107 C:/Users/HP/Documents/GitHub/TP78/architectures/single_coin_type_storage-rtl.vhd|
+!i113 1
+R10
+R11
+Esingle_coin_type_storage_bis
+w1589150050
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/single_coin_storage_unit_bit-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/single_coin_storage_unit_bit-entity.vhd
+l0
+L7
+Va[b4?k@V;dgd_a?e>[fSM1
+!s100 gS:E_QlGL5ZfEOH?bcWle0
+R7
+32
+!s110 1589484980
+!i10b 1
+!s108 1589484980.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/single_coin_storage_unit_bit-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/single_coin_storage_unit_bit-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590175248
+R1
+R2
+R3
+R4
+R5
+DEx4 work 28 single_coin_type_storage_bis 0 22 a[b4?k@V;dgd_a?e>[fSM1
+R27
+R28
+l5
+L1
+VaaM8c^T8m?NXlEaVD2d8Z2
+!s100 WnlnCnB_RCIdKWA7;AOCM3
+R7
+32
+!s110 1590175259
+!i10b 1
+!s108 1590175259.000000
+R29
+R30
+!i113 1
+R10
+R11
+Estate_manager
+w1589980370
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/storage_control_components/state_manager-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/storage_control_components/state_manager-entity.vhd
+l0
+L6
+V6>h2CJPFOLBm225_YGUXY0
+!s100 K6d^6Y^cRW<HHP:5_bZ350
+R7
+32
+!s110 1589981597
+!i10b 1
+!s108 1589981597.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/storage_control_components/state_manager-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/storage_control_components/state_manager-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1589982382
+R3
+R4
+R5
+DEx4 work 13 state_manager 0 22 6>h2CJPFOLBm225_YGUXY0
+8C:/Users/HP/Documents/GitHub/TP78/storage_control_components/state_manager-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/storage_control_components/state_manager-rtl.vhd
+l3
+L1
+VQmNmeKbFSh>=6DGIC>5Qo3
+!s100 MoGhQE]L;gX=PK;MDKB1J3
+R7
+32
+!s110 1589982386
+!i10b 1
+!s108 1589982386.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/storage_control_components/state_manager-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/storage_control_components/state_manager-rtl.vhd|
+!i113 1
+R10
+R11
+Estorage_ctl
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/storage_ctl-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/storage_ctl-entity.vhd
+l0
+L7
+V8>7e=P>S4GokcJHC]52dK3
+!s100 15iiLL1@nCf:gXb9NdSEf0
+R7
+32
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/storage_ctl-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/storage_ctl-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590885778
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 storage_ctl 0 22 8>7e=P>S4GokcJHC]52dK3
+8C:/Users/HP/Documents/GitHub/TP78/architectures/storage_ctl-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/storage_ctl-rtl.vhd
+l18
+L1
+VcN_[__?a@8Cb9FYNfo>5Q0
+!s100 W<Df`FUbiGJ`A^H9DkEeE3
+R7
+32
+R25
+!i10b 1
+!s108 1590886712.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/storage_ctl-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/storage_ctl-rtl.vhd|
+!i113 1
+R10
+R11
+Esum_splitter
+Z31 w1589458823
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/sum_splitter-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/sum_splitter-entity.vhd
+l0
+L9
+VPdEFB@=bjgC9HVQD5chiE2
+!s100 =eEASSOYHF0mn>^OWi1G30
+R7
+32
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/sum_splitter-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/sum_splitter-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 sum_splitter 0 22 PdEFB@=bjgC9HVQD5chiE2
+8C:/Users/HP/Documents/GitHub/TP78/architectures/sum_splitter-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/sum_splitter-rtl.vhd
+l2
+L1
+V;mNka>ODMP>[nKb^@=gO80
+!s100 nFbAibdWYZEFE@zJUR2^:1
+R7
+32
+R12
+!i10b 1
+R13
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/sum_splitter-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/sum_splitter-rtl.vhd|
+!i113 1
+R10
+R11
+Etimed_button
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/timed_button-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/timed_button-entity.vhd
+l0
+L7
+VIm84ZR>jlfM4dE0?f>2C?3
+!s100 F950CfGB@agLjTl6EodDd3
+R7
+32
+R17
+!i10b 1
+R18
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/timed_button-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/timed_button-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590877653
+R1
+R2
+R3
+R4
+R5
+DEx4 work 12 timed_button 0 22 Im84ZR>jlfM4dE0?f>2C?3
+8C:/Users/HP/Documents/GitHub/TP78/architectures/timed_button-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/timed_button-rtl.vhd
+l18
+L1
+Vj60PG=6LIW4SS^H[Qf^jU1
+!s100 hR@d9fhXH?HHe?zQbCOcC3
+R7
+32
+!s110 1590877669
+!i10b 1
+!s108 1590877669.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/timed_button-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/timed_button-rtl.vhd|
+!i113 1
+R10
+R11
+Etimer
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+8C:/Users/HP/Documents/GitHub/TP78/entities/timer-entity.vhd
+FC:/Users/HP/Documents/GitHub/TP78/entities/timer-entity.vhd
+l0
+L7
+Ven7H:YEgI^JHf9VZ6ieoc1
+!s100 fcJ`:jZdJO1?5Pg5e_[[I1
+R7
+32
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/entities/timer-entity.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/entities/timer-entity.vhd|
+!i113 1
+R10
+R11
+Artl
+w1590925555
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 timer 0 22 en7H:YEgI^JHf9VZ6ieoc1
+8C:/Users/HP/Documents/GitHub/TP78/architectures/timer-rtl.vhd
+FC:/Users/HP/Documents/GitHub/TP78/architectures/timer-rtl.vhd
+l7
+L1
+VHK2Zf?k@UCTj3>5IelbPJ1
+!s100 4AIb2<jb`R>C?zU8m;P@b0
+R7
+32
+!s110 1590925561
+!i10b 1
+!s108 1590925561.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/HP/Documents/GitHub/TP78/architectures/timer-rtl.vhd|
+!s107 C:/Users/HP/Documents/GitHub/TP78/architectures/timer-rtl.vhd|
 !i113 1
 R10
 R11

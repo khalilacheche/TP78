@@ -1,0 +1,16 @@
+vsim -t ps money_storage
+add wave clk insert_coin calc_change give_change release_coins cmd_served cmd_complete in_coin_type price_f change_f temp_sum_f main_sum_f
+#add wave *
+#add wave /money_storage/main/deux/*
+force clk 1 0 , 0 1 -repeat 2
+force reset 1 0, 0 2
+force insert_coin 0 0 , 1 4 , 0 8
+force in_coin_type 00000 0 , 10000 4 , 01000 6, 00000 8
+force cmd_served 0 0, 1 50 , 0 80 , 1 96 ,  0 120 , 1 124
+#force release_coins
+force price 0000000010100110 0
+force show_change 0 0 , 1 80
+force give_change 0 0 , 1 96 , 0 119
+force calc_change 0 0 , 1 50 , 0 80
+force merge_coins 0 0 , 1 124
+run 200

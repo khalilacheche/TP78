@@ -1,0 +1,19 @@
+vsim -t ps main_fsm
+add wave *
+#add wave clk reset accept cancel drink_type choice_full_price yes no user_chose_drink available  drink_type_o price_f make_clear money_cmd_served money_cmd_complete pour_cmd_served pour_cmd_complete current_state
+force clk 0 0 , 1 1 -repeat 2
+force reset 1 0, 0 2
+force accept 0 0 , 1 5 , 0 7 -repeat 90
+force yes 0 0 , 1 19 , 0 21, 1 27 , 0 29 , 1 49 , 0 51  , 1 55, 0 57 -repeat 90
+force no 0 0
+force cancel 0
+force drink_type 00000 0 , 10000 15 , 00000 17, 01000 25 , 00000 27 -repeat 90
+force in_coin_type  00000 0
+force base_price 16#0000 0 , 16#00C0 25 , 16#0000 81 -repeat 90
+force available 0 0, 1 25 , 0 79 -repeat 90
+force money_cmd_complete 0 0, 1 43 , 0 47 , 1 77 ,0 81 -repeat 90
+force pour_cmd_complete 0 0, 1 67 , 0 71 -repeat 90
+force negative 0
+force zero 0 0 , 1 43, 0 47 -repeat 90
+# 0 0 , 1 31 , 0 35 -repeat 40
+run 200

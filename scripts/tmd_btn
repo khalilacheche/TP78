@@ -1,0 +1,6 @@
+vsim -t ps timed_button
+add wave *
+force clk 0 0, 1 1 -repeat 2
+force clear 0 0 , 1 12 , 0 14 , 1 41, 0 43
+force button 0 0 , 1 2
+run 1000

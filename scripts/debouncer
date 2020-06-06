@@ -1,0 +1,6 @@
+vsim -t ps debouncer
+add wave *
+force clk 0 0 , 1 1 -repeat 2
+force clear 1 0 , 0 2 , 1 18
+force button 0 0 , 1 4 , 0 5, 1 6 , 0 9
+run 20

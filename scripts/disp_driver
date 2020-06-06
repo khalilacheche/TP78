@@ -1,0 +1,5 @@
+vsim -t ps disp_driver
+add wave *
+force en 1 0, 0 30
+force num 0000000011000000 0, 0000000111100000 10, 0000000101111000 20 -repeat 30
+run 200

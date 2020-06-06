@@ -1,0 +1,10 @@
+vsim -t ps change_calculator
+add wave *
+#clk enable reset price temp_storage_sum change_count_2 change_count_1 change_count_05 change_count_02 zero negative completed coin_type
+force clk 0 0 , 1 1 -repeat 2
+force reset 1 0, 0 2
+force enable 1
+force main_count 00000 0 , 00001 1 , 00010 6
+force temp_storage_sum 16#0280
+force price 16#0000
+run 100

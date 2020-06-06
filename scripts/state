@@ -1,0 +1,17 @@
+vsim -t ps state_manager
+add wave clk reset insert insert_completed start_process end_process idle busy completed
+force clk 1 0 , 0 1 -repeat 2
+force reset 1 0, 0 2
+force start_process 1 2 , 0 4
+force insert 1 2
+force insert_completed 0 0 , 1 6
+force merge 0
+force merge_completed 0
+force release 0
+force release_completed 0
+force calc_change 0
+force calc_change_completed 0
+force give_change 0
+force give_change_completed 0
+force end_process 0 0, 1 15
+run 20

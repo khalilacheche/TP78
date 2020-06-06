@@ -1,0 +1,15 @@
+vsim -t ps storage_ctl
+add wave *
+#clk reset calc_change calc_change_completed idle busy completed cptr cmd_served cmd_complete temp_storage_sum main_storage_count price change_count_2 change_count_1 change_count_05 change_count_02
+force clk 1 0 , 0 1 -repeat 2
+force reset  0
+force cmd_served 0 0, 1 2 , 0 45 -repeat 50
+force calc_change 0 0, 1 2
+force main_storage_count 00000 0 , 00001 1 , 00010 6
+force temp_storage_sum 16#0280
+force price 16#0000 0, 16#00C0 50
+force release_coins 0
+force insert_coin 0
+force merge_coins 0
+force give_change 0
+run 100

@@ -1,0 +1,7 @@
+vsim -t ps drink_preparation
+add wave *
+force clk 1 0 , 0 1 -repeat 2
+force reset 1 0, 0 2
+force drink_type 10000 0 , 01000 1 , 00100 2, 00010 3, 00001 4 , 10000 340
+force cmd_served 0 0 , 1 5, 0 320 , 1 340
+run 1000

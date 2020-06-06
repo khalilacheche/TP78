@@ -1,0 +1,6 @@
+vsim -t ps event_launcher
+add wave clk reset inp start
+force clk 1 0 , 0 1 -repeat 2
+force reset 1 0, 0 2
+force inp 0 0, 1 3, 0 6, 1 10 -repeat 10
+run 20

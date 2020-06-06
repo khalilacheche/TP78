@@ -1,0 +1,6 @@
+vsim -t ps bcd_to_7seg
+add wave *
+force en 1 0, 0 10
+force point_on 1 0, 0 4
+force bcd 0000 0, 0010 1, 0001 2 , 1001 3, 1000 4 -repeat 4
+run 200

@@ -1,0 +1,9 @@
+vsim -t ps cs_test
+add wave *
+force clock 0 0 , 1 1 -repeat 2
+force reset 1 0, 0 2
+force enable 1 0 ,1 3, 0 20 , 1 30
+force add_coin 1 0 , 0 10 -repeat 20
+force rem_coin 0 0 , 1 10 -repeat 20
+force coin_type 00001 0 , 01000 20, 00100 40, 00010 60, 10000 80
+run 100

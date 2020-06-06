@@ -1,0 +1,9 @@
+vsim -t ps main_fsm
+add wave *
+# clk reset accept cancel user_made_coice money_cmd_served money_cmd_complete pour_cmd_served pour_cmd_complete current_state next_state
+force clk 0 0 , 1 1 -repeat 2
+force reset 1 0, 0 2
+force accept 0 0 , 1 5 , 0 9 -repeat 40
+force cancel 0 0 , 1 15 , 0 19 -repeat 40
+force money_cmd_complete 0 0 , 1 31 , 0 35 -repeat 40
+run 80

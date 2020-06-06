@@ -1,0 +1,9 @@
+vsim -t ps led_driver
+add wave *
+force msg 111 0 , 110 4
+force progress_led 0 0 , 1 1 -repeat 2
+force change_count_02 00010
+force change_count_1 00010 0 , 01010 5
+force change_count_2 00000
+force change_count_05 00000
+run 100

@@ -25,7 +25,7 @@ package fixed_point_pkg is
     function float_to_fixed(float : real) return unsigned;
     --Converts a real to a 9.7 16-bit fixed point number.
     function float_eq(a : real; b : real) return boolean;
-    --Compares two floats by truncating them to two decimal points. 
+    --Compares two floats by truncating them to two decimal points.
 
     type init_count_t is array(0 to 4) of natural;
     --Represents the numbers of coins of each type loaded at maintenance.
@@ -64,5 +64,5 @@ package body fixed_point_pkg is
         b_int := integer(trunc(b * 100.0));
         return a_int = b_int;
     end function float_eq;
-    
+
 end package body fixed_point_pkg;
